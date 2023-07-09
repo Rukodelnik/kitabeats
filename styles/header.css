@@ -1,0 +1,30 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 100px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Ysabeau SC;
+    z-index: 100;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 60px;
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 30px;
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}

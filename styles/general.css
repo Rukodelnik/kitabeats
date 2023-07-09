@@ -1,0 +1,41 @@
+body{
+    font-family: Ysabeau SC, PT Serif, Rubik;
+    background-image: url("LOGO FIRE.jpg");
+}
+p{
+    font-family: Ysabeau SC, PT Serif, Rubik;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+@media(max-width: 1000px){  
+audio{
+    width: 500px;
+    height: 100px;
+}
+}
+audio::-webkit-media-controls-panel {
+    background-color: rgb(31, 31, 31);
+}
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-toggle-closed-captions-button{
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px;
+
+}
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider{
+    background-color: rgb(206, 206, 206);
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display{
+    color: white;
+    font-family: Rubik;
+}
